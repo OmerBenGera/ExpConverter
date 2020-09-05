@@ -1,0 +1,7 @@
+name: ExpConvertor
+version: 1.2.2
+main: com.ome_r.expconvertor.Main
+author: [OmerBenGera]
+commands:
+  xpbottle:
+    description: Convert your exp into an exp bottle.

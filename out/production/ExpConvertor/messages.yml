@@ -1,0 +1,47 @@
+############################################################################
+##                                                                        ##
+##                      ExpConvertor Messages File                        ##
+##                   Plugin's creator is OmerBenGera                      ##
+##                                                                        ##
+############################################################################
+
+#When a player doesn't have the permission 'expconvertor.use'
+NO_PERMISSION: '&fUnknown command. Type "/help" for help.'
+
+#When the player runs the command but not following the format '/xpbottle [#]'
+#{0} represents the command format
+COMMAND_USAGE: '&cUsage: {0}'
+
+#When the player runs the command but doesn't have enough exp points
+#{0} represents the value that was entered
+NOT_ENOUGH_EXP: '&cYou don''t have enough exp points.'
+
+#When the player tries to convert 0 exp points
+NO_EXP: '&cYou cannot convert 0 exp points.'
+
+#When the player runs the command but put an invalid number
+INVALID_NUMBER: '&c''{0}'' is not a valid number.'
+
+#When the exp points are successfully converted into an exp bottle
+CONVERT_SUCCEED: '&aSuccessfully converted your exp into an exp bottle!'
+
+#When the reload command is successfully finished
+RELOAD_SUCCEED: '&aSuccessfully reloaded the messages.yml!'
+
+#When the reload command has failed
+RELOAD_FAILED: '&cError while reloading messages.yml, check console for more information.'
+
+#The name of the exp bottle
+BOTTLE_NAME: '&6Converted EXP'
+
+#The lore of the bottle
+#{0} represents the amount of exp points
+BOTTLE_LORE:
+- ''
+- '&dContains &a{0} &dexp points.'
+
+#Does the plugin should store data with nbt tags?
+#This function is not supported on 1.7 servers!
+#Note that not all the plugins support NBT tags.
+#Make sure the lore contains {0} if that is false
+NBT_SUPPORT: true
